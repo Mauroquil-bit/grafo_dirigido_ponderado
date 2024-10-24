@@ -1,10 +1,12 @@
-Grafo Dirigido Ponderado en Python
+# Grafo Dirigido Ponderado en Python
+
 Este repositorio contiene un ejemplo sencillo de cómo crear y visualizar un grafo dirigido ponderado utilizando Python y las librerías NetworkX y Matplotlib.
 
-Descripción
+## Descripción
+
 El código proporciona una implementación básica para:
 
-Crear un grafo dirigido.
+## Crear un grafo dirigido.
 Agregar nodos y aristas con pesos específicos.
 Visualizar el grafo con los pesos de las aristas.
 Requisitos
