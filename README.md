@@ -2,7 +2,7 @@
 
 Este repositorio contiene un ejemplo de cómo crear y visualizar un grafo dirigido ponderado utilizando las librerías NetworkX y matplotlib en Python.
 
-Descripción
+## Descripción
 
 El código incluido en este repositorio permite representar un grafo dirigido ponderado, donde los nodos están conectados por aristas que tienen un peso asociado. Este tipo de grafo es útil para modelar problemas como redes de transporte, circuitos eléctricos, o relaciones jerárquicas.
 
@@ -14,7 +14,7 @@ matplotlib se utiliza para visualizar el grafo, mostrando las conexiones entre n
 
 El código crea un grafo dirigido con cinco nodos y varias aristas con pesos positivos y negativos, y luego muestra una visualización del grafo.
 
-Requisitos
+## Requisitos
 
 Para ejecutar el código necesitarás instalar las siguientes librerías:
 
