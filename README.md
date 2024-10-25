@@ -3,23 +3,24 @@
 Este repositorio contiene un ejemplo sencillo de cómo crear y visualizar un grafo dirigido ponderado utilizando Python y las librerías NetworkX y Matplotlib.
 
 ## Descripción
-
 El código proporciona una implementación básica para:
 
-## Crear un grafo dirigido.
-Agregar nodos y aristas con pesos específicos.
-Visualizar el grafo con los pesos de las aristas.
-Requisitos
+- Crear un grafo dirigido.
+- Agregar nodos y aristas con pesos específicos.
+- Visualizar el grafo con los pesos de las aristas.
+  
+## Requisitos
 Antes de ejecutar el código, asegúrate de tener instaladas las siguientes librerías:
+- NetworkX
+- Matplotlib
 
-NetworkX
-Matplotlib
-Puedes instalarlas utilizando pip:
+Puedes instalarlas utilizando "pip install":
 
-bash
-Copiar código
+```bash
 pip install networkx matplotlib
-Cómo Ejecutar el Código
+```
+
+## Cómo Ejecutar el Código
 Clona el repositorio o descarga el archivo grafo_dirigido_ponderado.py.
 
 Ejecuta el script desde la línea de comandos o utilizando un entorno de desarrollo como Visual Studio Code, PyCharm, etc.
@@ -29,7 +30,7 @@ Copiar código
 python grafo_dirigido_ponderado.py
 Visualiza el grafo: Se abrirá una ventana mostrando el grafo dirigido con los pesos de las aristas.
 
-Explicación del Código
+## Explicación del Código
 Importación de librerías:
 
 python
