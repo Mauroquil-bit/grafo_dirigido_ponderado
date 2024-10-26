@@ -1,4 +1,4 @@
-# Grafo Dirigido Ponderado en Python
+# Grafo Dirigido Ponderado en Python 🚀
 
 ![Visualización del Grafo](/grafo.png)
 
