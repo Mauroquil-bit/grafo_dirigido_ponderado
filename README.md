@@ -41,22 +41,21 @@ import networkx as nx
 ```
 Creación del grafo dirigido:
 
-python
-Copiar código
+```
 grafo = nx.DiGraph()
+```
+
 Definición de las aristas y sus pesos:
 
-python
-Copiar código
+```
 aristas = [
     (0, 2, -3),
     (1, 0, 8),
     (2, 1, 7),
     (3, 1, 1),
-    (4, 0, 2),
-    (4, 1, 4),
-    (4, 3, 2),
+    (4, 0, 2), (4, 1, 4), (4, 3, 2),
 ]
+```
 Agregar aristas al grafo:
 
 python
