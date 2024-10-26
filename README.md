@@ -39,14 +39,13 @@ import matplotlib
 from matplotlib import pyplot as plt
 import networkx as nx
 ```
-Creación del grafo dirigido:
 
+Creación del grafo dirigido:
 ```
 grafo = nx.DiGraph()
 ```
 
 Definición de las aristas y sus pesos:
-
 ```
 aristas = [
     (0, 2, -3),
@@ -56,39 +55,42 @@ aristas = [
     (4, 0, 2), (4, 1, 4), (4, 3, 2),
 ]
 ```
-Agregar aristas al grafo:
 
-python
-Copiar código
+Agregar aristas al grafo:
+```
 for origen, destino, peso in aristas:
     grafo.add_edge(origen, destino, weight=peso)
-Posicionamiento y dibujo del grafo:
+```
 
-python
-Copiar código
+Posicionamiento y dibujo del grafo:
+```
 posicion = nx.spring_layout(grafo)
 nx.draw(grafo, posicion, with_labels=True, node_size=700, node_color='lightblue', font_weight='bold', arrows=True)
-Agregar etiquetas de pesos a las aristas:
+```
 
-python
-Copiar código
+Agregar etiquetas de pesos a las aristas:
+```
 etiquetas_aristas = {(origen, destino): peso for origen, destino, peso in aristas}
 nx.draw_networkx_edge_labels(grafo, posicion, edge_labels=etiquetas_aristas)
-Mostrar el grafo:
+```
 
-python
-Copiar código
+Mostrar el grafo:
+```
 plt.title("Grafo Dirigido Ponderado")
 plt.show()
+```
+
 Personalización
 Puedes modificar la lista aristas para agregar, eliminar o cambiar aristas y pesos según tus necesidades. Por ejemplo, para agregar una nueva arista:
-
-python
-Copiar código
+```
 aristas.append((2, 4, 5))
-Recursos Adicionales
-Documentación de NetworkX
-Documentación de Matplotlib
+```
+
+## Recursos Adicionales
+
+- [Documentación de NetworkX](https://networkx.org/documentation/stable/)
+- [Documentación de Matplotlib](https://matplotlib.org/stable/contents.html)
+
 Contacto
 Si tienes preguntas o sugerencias, no dudes en contactarme a través de mi perfil de GitHub o tomar una consulta gratuita de 30 minutos a través de mi página web:  https://mauroquil-bit.github.io/
 
