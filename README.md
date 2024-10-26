@@ -69,10 +69,9 @@ nx.draw(grafo, posicion, with_labels=True, node_size=700, node_color='lightblue'
 ```
 
 Agregar etiquetas de pesos a las aristas:
-```
+```python
 etiquetas_aristas = {(origen, destino): peso for origen, destino, peso in aristas}
 nx.draw_networkx_edge_labels(grafo, posicion, edge_labels=etiquetas_aristas)
-```
 
 Mostrar el grafo:
 ```
