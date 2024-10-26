@@ -1,6 +1,6 @@
 # Grafo Dirigido Ponderado en Python
 
-![Visualización del Grafo](images/grafo.png)
+![Visualización del Grafo](/grafo.png)
 
 Este repositorio contiene un ejemplo sencillo de cómo crear y visualizar un grafo dirigido ponderado utilizando Python y las librerías NetworkX y Matplotlib.
 
