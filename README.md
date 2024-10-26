@@ -22,7 +22,7 @@ Puedes instalarlas utilizando "pip install":
 pip install networkx matplotlib
 ```
 
-## Cómo Ejecutar el Código
+## Cómo Ejecutar el Código 🖥️
 Clona el repositorio o descarga el archivo grafo_dirigido_ponderado.py.
 
 Ejecuta el script desde la línea de comandos o utilizando un entorno de desarrollo como Visual Studio Code, PyCharm, etc.
@@ -33,7 +33,7 @@ python grafo_dirigido_ponderado.py
 
 Visualiza el grafo: Se abrirá una ventana mostrando el grafo dirigido con los pesos de las aristas.
 
-## Explicación del Código
+## Explicación del Código 💡
 Importación de librerías:
 
 ```python
@@ -88,7 +88,7 @@ Puedes modificar la lista aristas para agregar, eliminar o cambiar aristas y pes
 aristas.append((2, 4, 5))
 ```
 
-## Recursos Adicionales
+## Recursos Adicionales 📚
 
 - [Documentación de NetworkX](https://networkx.org/documentation/stable/)
 - [Documentación de Matplotlib](https://matplotlib.org/stable/contents.html)
