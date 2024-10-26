@@ -16,7 +16,7 @@ Antes de ejecutar el código, asegúrate de tener instaladas las siguientes libr
 
 Puedes instalarlas utilizando "pip install":
 
-```bash
+```
 pip install networkx matplotlib
 ```
 
@@ -25,19 +25,20 @@ Clona el repositorio o descarga el archivo grafo_dirigido_ponderado.py.
 
 Ejecuta el script desde la línea de comandos o utilizando un entorno de desarrollo como Visual Studio Code, PyCharm, etc.
 
-bash
-Copiar código
+```
 python grafo_dirigido_ponderado.py
+```
+
 Visualiza el grafo: Se abrirá una ventana mostrando el grafo dirigido con los pesos de las aristas.
 
 ## Explicación del Código
 Importación de librerías:
 
-python
-Copiar código
+```
 import matplotlib
 from matplotlib import pyplot as plt
 import networkx as nx
+```
 Creación del grafo dirigido:
 
 python
